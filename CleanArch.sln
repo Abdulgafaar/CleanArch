@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch", "CleanArch\CleanArch.csproj", "{99E1C149-9350-49F4-A1F3-E9F96823AE06}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Application", "CleanArch.Application", "{12686303-0DB9-4A4C-9864-B6DA82FED5FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Domain", "CleanArch.Domain", "{D66799B5-B73B-4209-A0CD-DB1AB6B0F442}"
@@ -15,45 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.Data", "Cle
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.UI.Mvc", "CleanArch.UI.Mvc", "{07E8E05D-2A2A-4CD9-A469-CCCE170FB250}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Mvc", "CleanArch.Mvc\CleanArch.Mvc.csproj", "{64B85BC8-E5BA-47AB-ACD3-D8BBBA2AD703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|ARM = Debug|ARM
-		Debug|ARM64 = Debug|ARM64
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|ARM = Release|ARM
-		Release|ARM64 = Release|ARM64
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|ARM.ActiveCfg = Debug|ARM
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|ARM.Build.0 = Debug|ARM
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|ARM.Deploy.0 = Debug|ARM
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|ARM64.Build.0 = Debug|ARM64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|ARM64.Deploy.0 = Debug|ARM64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|x64.ActiveCfg = Debug|x64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|x64.Build.0 = Debug|x64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|x64.Deploy.0 = Debug|x64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|x86.ActiveCfg = Debug|x86
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|x86.Build.0 = Debug|x86
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Debug|x86.Deploy.0 = Debug|x86
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|ARM.ActiveCfg = Release|ARM
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|ARM.Build.0 = Release|ARM
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|ARM.Deploy.0 = Release|ARM
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|ARM64.ActiveCfg = Release|ARM64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|ARM64.Build.0 = Release|ARM64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|ARM64.Deploy.0 = Release|ARM64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|x64.ActiveCfg = Release|x64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|x64.Build.0 = Release|x64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|x64.Deploy.0 = Release|x64
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|x86.ActiveCfg = Release|x86
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|x86.Build.0 = Release|x86
-		{99E1C149-9350-49F4-A1F3-E9F96823AE06}.Release|x86.Deploy.0 = Release|x86
+		{64B85BC8-E5BA-47AB-ACD3-D8BBBA2AD703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B85BC8-E5BA-47AB-ACD3-D8BBBA2AD703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B85BC8-E5BA-47AB-ACD3-D8BBBA2AD703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B85BC8-E5BA-47AB-ACD3-D8BBBA2AD703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64B85BC8-E5BA-47AB-ACD3-D8BBBA2AD703} = {07E8E05D-2A2A-4CD9-A469-CCCE170FB250}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4BDCABB-4014-4AD8-9A73-6DAE192F72C0}
